@@ -2,4 +2,4 @@
 
 * This project provide an environment of z3py
 
-./z3py/src/simpleExample.py is a simple test script
+* A simple example script: [./z3py/src/simpleExample.py](https://github.com/JoeZJH/z3-environment/blob/master/z3py/src/simpleExample.py) 
