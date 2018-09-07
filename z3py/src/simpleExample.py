@@ -1,10 +1,7 @@
 #coding:utf-8
 #!/usr/bin/python
-# from __future__ import print_function
 # Jiahong Zhou 2017
 import sys
-# path = "/Users/zhoujiahong/Jiahonglibs/z3-4.4.0-x64-osx-10.10.3/bin"
-# path = "/Users/zhoujiahong/Jiahonglibs/z3-4.6.0-x64-osx-10.11.6/bin/python/z3"
 
 import os
 thisFilePath = os.path.split(os.path.realpath(__file__))[0]
@@ -21,7 +18,7 @@ __builtin__.Z3_LIB_DIRS = [os.path.join(rootPath, "z3py/bin/")]
 import z3
 import json
 
-def happen_before():
+def simple_example():
     # step 1
     solver = z3.Solver()
 
@@ -51,4 +48,4 @@ def happen_before():
 
 
 if __name__ == "__main__":
-    happen_before()
+    simple_example()
